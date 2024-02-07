@@ -1,0 +1,219 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+}
+
+
+
+#navbarSupportedContent a:hover{
+   
+    font-weight: bold;
+   color:green;
+    text-decoration: underline;
+    
+
+
+}
+#navbarSupportedContent a{
+    color: white;
+}
+.protest-revolution-regular {
+    font-family:Poppins_dd927d,__Poppins_Fallback_dd927d;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+#navbarSupportedContent a{
+    font-size: 20px;
+    
+} 
+.name{
+        text-shadow: 3px 3px 3px black;
+}
+
+ bold{
+   
+    font-size: 60px;
+}
+
+ .pravin{
+    font-weight: bold;
+    color:orange;
+    font-size: 30px;
+   letter-spacing:5px;
+} 
+.webd {
+    font-weight: bold;
+    color:orange;
+   
+}
+
+.name{
+    text-shadow: 3px 4px 10px rgb(28, 24, 24);
+}
+.form-area {
+	padding-top: 7%;
+  
+}
+.row.single-form {
+	box-shadow: 0 2px 20px -5px rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.left {
+	background: rgb(20, 172, 35);
+	padding: 200px 98px;
+    border-radius: 10px;
+}
+.left h2 {
+	font-family: poppins;
+	color: #fff;
+	font-weight: 700;
+	font-size: 48px;
+}
+.left h2  {
+   text-align: center;
+
+}
+.single-form{
+    background: #fff;
+}
+.right {
+	padding: 50px 50px;
+	position: relative;
+}
+.right i {
+	position: absolute;
+	font-size: 80px;
+	left: -27px;
+	top: 40%;
+	color: #fff;
+}
+.form-control {
+	border: 2px solid #000;
+}
+.right button {
+	border: none;
+	border-radius: 0;
+	background: #252525;
+	width: 180px;
+	color: #fff;
+	padding: 15px 0;
+	display: inline-block;
+	font-size: 16px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+.right button:hover{
+    background-color: #252525;
+}
+.btn:hover{
+   border: 2px solid white;
+    box-shadow: 3px 3px  white;
+    color: aquamarine;
+}
+
+
+.hello {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:bold;
+   
+  } 
+  
+      
+
+/*responsive*/
+
+@media (min-width:768px) and (max-width:991px){
+    .right i {
+	top: -52px;
+	transform: rotate(90deg);
+	left: 50%;
+}
+}
+
+@media (max-width:767px){
+    .left {
+  padding: 90px 15px;
+  text-align: center;
+}
+.left h2 {
+  font-size: 25px;
+}
+.right {
+  padding: 25px;
+}
+.right i {
+  top: -52px;
+  transform: rotate(90deg);
+  left: 46%;
+}
+    .right button {
+	width: 150px;
+	padding: 12px 0;
+}
+
+    
+}
+.footer-copyright a{
+   list-style: none;
+    text-decoration: none;
+   font-size: large;
+
+
+}
+
+.card-img-to{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+@media only screen and (max-width: 768px) {
+    #ssc {
+      text-align: center;
+    }
+    #hsc {
+        text-align: center;
+      }
+      #mu {
+        text-align: center;
+      }
+  }
+
+  .button-63 {
+    align-items: center;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 10px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 19px 24px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+  }
+  
+  .button-63:active,
+  .button-63:hover {
+    background: green;
+  }
+  
+  @media (min-width: 768px) {
+    .button-63 {
+      font-size: 20px;
+      min-width: 196px;
+    }
+}
